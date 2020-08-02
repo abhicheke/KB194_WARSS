@@ -41,10 +41,10 @@ public class dashboard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(veri.isChecked()){
-                    Toast.makeText(dashboard.this,"Verified",Toast.LENGTH_LONG).show();
+                    new veripend(dashboard.this).execute("Verified");
                 }
                 if(pend.isChecked()){
-                    Toast.makeText(dashboard.this,"Not Verified",Toast.LENGTH_LONG).show();
+                    new veripend(dashboard.this).execute("Not_Verified");
                 }
             }
         });
