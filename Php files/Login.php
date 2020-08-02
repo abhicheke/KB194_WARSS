@@ -14,4 +14,4 @@ $result = $conn->query($sql);
          echo $row["Id"]."%".$row["Name"]."_".$row["Last"]."%". $row["Aathar_No"]."%".$row["Date_of_Birth"]."%".$row["Mobile"]."%".$row["House_No"]."%". $row["Road"]."%".$row["LandMark"]."%".$row["Pincode"]."%".$row["Village"]."%".$row["Taluk"]."%".$row["District"]."%".$row["Cows"]."%".$row["Buffalo"]."%".$row["Goat"]."%".$row["Sheep"]."%".$row["Horse"];
     }
 $conn->close();
-?> g
+?> 
