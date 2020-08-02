@@ -8,28 +8,21 @@
     tools:context=".login">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="382dp"
-        android:layout_height="561dp"
-        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.794">
+        app:layout_constraintVertical_bias="0.792">
 
         <EditText
             android:id="@+id/uname"
             android:layout_width="312dp"
             android:layout_height="46dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_centerInParent="true"
             android:background="@drawable/edit_round"
             android:drawableLeft="@drawable/phone"
             android:hint="   Username"
@@ -37,22 +30,15 @@
             android:textColor="@color/colorPrimaryDark"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.226"></EditText>
+            app:layout_constraintVertical_bias="0.422"></EditText>
 
         <EditText
             android:id="@+id/password"
             android:layout_width="312dp"
             android:layout_height="46dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_centerInParent="true"
             android:background="@drawable/edit_round"
             android:drawableLeft="@drawable/ic_baseline_lock_24"
             android:hint="   Password"
@@ -60,20 +46,22 @@
             android:textColor="@color/colorPrimaryDark"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/uname"
-            app:layout_constraintVertical_bias="0.088"></EditText>
+            app:layout_constraintVertical_bias="0.09"></EditText>
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="239dp"
-            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="130dp"
+            android:layout_height="46dp"
             android:layout_gravity="center"
             android:background="@color/colorPrimaryDark"
             android:onClick="loginfunction"
             android:text="Login"
             android:textColor="@color/white"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -82,21 +70,24 @@
             app:layout_constraintTop_toBottomOf="@id/password"
             app:layout_constraintVertical_bias="0.205" />
 
+
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="315dp"
-            android:layout_height="70dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Livestock OwnerShip Management"
+            android:text="Livestock Ownership Management"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="25dp"
+            android:textSize="28sp"
+            android:textStyle="italic"
+            app:fontFamily="@font/special_elite"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.645"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.038" />
-
+            app:layout_constraintVertical_bias="0.28" />
 
         <CheckBox
             android:id="@+id/checkBox"
@@ -107,10 +98,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.255"
+            app:layout_constraintHorizontal_bias="0.277"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.455" />
+            app:layout_constraintVertical_bias="0.603" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
