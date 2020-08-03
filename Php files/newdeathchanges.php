@@ -16,3 +16,4 @@ $mysql_qry = "UPDATE Registeration SET $animal = $count where Mobile=$mobile";
    }
 $conn->close();
 ?>
+m
