@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WARRS</string>
+    <string name="app_name">WARSS</string>
     <string name="warsslogo">TODO</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
@@ -7,4 +7,7 @@
     <string name="livestock_ownership_management">Livestock Ownership Management</string>
     <string name="field_officer_login">Field Officer Login</string>
     <string name="show_password">Show Password</string>
+    <string name="verification">Verification</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="field_officer">Field Officer</string>
 </resources>
