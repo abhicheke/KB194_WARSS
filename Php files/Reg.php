@@ -31,4 +31,4 @@
    else{
 	   echo "Failed to Register";
    }
-?> m
+?> 
