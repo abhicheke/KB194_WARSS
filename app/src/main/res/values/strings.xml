@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">WARRS</string>
     <string name="warsslogo">TODO</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="livestock_ownership_management">Livestock Ownership Management</string>
+    <string name="field_officer_login">Field Officer Login</string>
+    <string name="show_password">Show Password</string>
 </resources>
