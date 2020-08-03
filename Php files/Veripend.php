@@ -14,3 +14,5 @@ $mysql_qry = "UPDATE Registeration SET Status = '$status' where Mobile='$mobile'
    }
 $conn->close();
 ?>
+
+m
